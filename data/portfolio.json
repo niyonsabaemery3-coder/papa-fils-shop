@@ -1,0 +1,44 @@
+[
+  {
+    "id": "W001",
+    "title": "Full Bedroom Refresh — Nyagatare Family",
+    "category": "bedding",
+    "description": "Supplied a matching mattress protector, cotton bedsheet set and reversible comforter for a family relocating to a new home.",
+    "image": "assets/images/comforter-blue-bed.jpeg"
+  },
+  {
+    "id": "W002",
+    "title": "Wedding Trousseau — Byumba Bride",
+    "category": "bedding",
+    "description": "Curated a full set of towels, bedsheets and duvets as part of a bride's wedding trousseau, delivered a week ahead of the ceremony.",
+    "image": "assets/images/towels-shelf.jpeg"
+  },
+  {
+    "id": "W003",
+    "title": "Living Room Curtain Fitting",
+    "category": "curtains",
+    "description": "Measured, supplied and hung a sheer-and-blackout curtain set across four windows for a client's newly built sitting room.",
+    "image": "assets/images/curtains-3.jpeg"
+  },
+  {
+    "id": "W004",
+    "title": "Family Travel Package",
+    "category": "luggage",
+    "description": "Fitted out a family of four travelling abroad with a matching set of hardshell spinner suitcases in three sizes.",
+    "image": "assets/images/luggage-pastel.jpeg"
+  },
+  {
+    "id": "W005",
+    "title": "Season Restock — Fashion Corner",
+    "category": "fashion",
+    "description": "Refreshed our fashion corner with a new tracksuit and coat collection ahead of the cold season.",
+    "image": "assets/images/coats-dresses-rack.jpeg"
+  },
+  {
+    "id": "W006",
+    "title": "Boutique Floor Mat Order",
+    "category": "curtains",
+    "description": "Supplied a bulk order of woven floor mats to a Byumba guesthouse refurbishing its guest rooms.",
+    "image": "assets/images/floor-mats.jpeg"
+  }
+]

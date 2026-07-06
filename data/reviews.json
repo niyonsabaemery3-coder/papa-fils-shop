@@ -1,0 +1,30 @@
+[
+  {
+    "id": "R001",
+    "name": "Uwase Diane",
+    "rating": 5,
+    "comment": "I bought a full bedding set for my new house and the quality is excellent. The family running the shop is so welcoming — I'll be back for curtains next.",
+    "date": "2026-05-14"
+  },
+  {
+    "id": "R002",
+    "name": "Niyonzima Eric",
+    "rating": 5,
+    "comment": "Best tracksuits in Byumba Market, hands down. Fair prices and they let me try before I paid. Highly recommend.",
+    "date": "2026-04-02"
+  },
+  {
+    "id": "R003",
+    "name": "Mukamana Solange",
+    "rating": 4,
+    "comment": "Good selection of suitcases for my trip. Delivery to Kigali took a little longer than expected but the quality made up for it.",
+    "date": "2026-03-20"
+  },
+  {
+    "id": "R004",
+    "name": "Habimana Jean de Dieu",
+    "rating": 5,
+    "comment": "The curtains I ordered were exactly as pictured and fitted perfectly. Great communication over WhatsApp throughout.",
+    "date": "2026-02-11"
+  }
+]

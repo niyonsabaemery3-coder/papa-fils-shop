@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Papa Fils na Mama Fils Shop</title>
+<meta name="description" content="See completed work from Papa Fils na Mama Fils Shop — bedroom refreshes, curtain fittings, wedding trousseaus and travel packages delivered across Byumba.">
+<link rel="canonical" href="https://papafilsnamamafils.rw/portfolio.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Portfolio — Papa Fils na Mama Fils Shop">
+<meta property="og:description" content="Completed work: bedroom refreshes, curtain fittings, wedding trousseaus and travel packages.">
+<meta property="og:image" content="assets/images/curtains-3.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="portfolio">
+
+<div id="loading-screen"><div class="mark">PF</div></div>
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="breadcrumb-hero">
+    <div class="container">
+      <span class="eyebrow">Our Work</span>
+      <h1>Delivered orders, real customers</h1>
+      <p style="max-width:520px;margin:14px auto 0;">A look at recent bookings, bulk orders and custom fittings we've completed for families across Byumba.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container hero-grid" style="align-items:center;">
+      <div>
+        <span class="eyebrow">Video Tour</span>
+        <h2>Step inside Byumba Market with us</h2>
+        <p>A quick look around our stall — the racks, the shelves and the corner where it all started.</p>
+      </div>
+      <div class="hero-media-frame" style="aspect-ratio:16/9;">
+        <video controls preload="metadata" poster="assets/images/duvets-stack.jpeg">
+          <source src="assets/videos/shop-tour.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight section--dim">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Completed Work</span>
+        <h2>Recent bookings &amp; orders</h2>
+      </div>
+      <div class="cat-pill-row" id="portfolio-pills" style="margin-bottom:32px; justify-content:center;"></div>
+      <div class="grid grid-3" id="portfolio-grid"></div>
+    </div>
+  </section>
+
+  <section class="section section--dim">
+    <div class="container">
+      <div class="card" style="padding:48px 40px; text-align:center; border:none;">
+        <span class="eyebrow" style="justify-content:center;">Coming Soon</span>
+        <h2>We're expanding what we stock</h2>
+        <p style="max-width:600px; margin:0 auto 24px;">In the future, we will also provide:</p>
+        <div class="cat-pill-row" style="justify-content:center;">
+          <span class="tag tag--muted">Furniture</span>
+          <span class="tag tag--muted tag--rotate-r">Kitchenware</span>
+          <span class="tag tag--muted">Electronics</span>
+          <span class="tag tag--muted tag--rotate-r">Footwear</span>
+          <span class="tag tag--muted">Baby &amp; Children's Wear</span>
+          <span class="tag tag--muted tag--rotate-r">Custom Curtains</span>
+          <span class="tag tag--muted">…and many more</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+<a class="whatsapp-fab" id="whatsapp-fab" href="#" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/modules/seed-data.js"></script>
+<script src="js/modules/utils.js"></script>
+<script src="js/modules/storage.js"></script>
+<script src="js/modules/store.js"></script>
+<script src="js/modules/ui.js"></script>
+<script src="js/modules/render.js"></script>
+<script src="js/portfolio.js"></script>
+<script>
+  UI.init("portfolio");
+  const biz = DataStore.getBusiness();
+  document.getElementById("whatsapp-fab").href = Utils.waLink(biz.whatsapp, "Hello! I saw your portfolio and had a question.");
+</script>
+</body>
+</html>

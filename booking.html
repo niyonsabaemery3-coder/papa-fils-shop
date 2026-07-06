@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Product — Papa Fils na Mama Fils Shop</title>
+<meta name="description" content="Reserve a product at Papa Fils na Mama Fils Shop, Byumba Market — no payment required. We'll hold it and call to confirm.">
+<link rel="canonical" href="https://papafilsnamamafils.rw/booking.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="booking">
+
+<div id="loading-screen"><div class="mark">PF</div></div>
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="breadcrumb-hero">
+    <div class="container">
+      <span class="eyebrow">Reserve Ahead</span>
+      <h1>Book a product, no payment needed</h1>
+      <p style="max-width:520px;margin:14px auto 0;">Tell us what you'd like, and we'll set it aside until you're ready to collect it.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container" style="max-width:640px;">
+      <div class="form-card" id="booking-form-card">
+        <form id="booking-form" novalidate>
+          <div class="field">
+            <label>Product <span class="req">*</span></label>
+            <select name="bookingProduct" required></select>
+            <span class="error">Please choose a product.</span>
+          </div>
+          <div class="form-grid">
+            <div class="field">
+              <label>Full Name <span class="req">*</span></label>
+              <input type="text" name="bookingName" required>
+              <span class="error">Please enter your full name.</span>
+            </div>
+            <div class="field">
+              <label>Phone Number <span class="req">*</span></label>
+              <input type="tel" name="bookingPhone" placeholder="07XX XXX XXX" required>
+              <span class="error">Enter a valid Rwandan phone number.</span>
+            </div>
+          </div>
+          <div class="field">
+            <label>Quantity</label>
+            <input type="number" name="bookingQty" min="1" value="1">
+          </div>
+          <div class="field">
+            <label>Note (optional)</label>
+            <textarea name="bookingNote" placeholder="Preferred size, colour, or pickup time…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block"><i class="fa-regular fa-calendar-check"></i> Book Now</button>
+        </form>
+      </div>
+      <div class="form-card" id="booking-success" style="display:none; text-align:center;">
+        <i class="fa-solid fa-circle-check" style="font-size:48px;color:var(--green);margin-bottom:16px;"></i>
+        <h3>Booking Received!</h3>
+        <p>We've reserved your request and will call you shortly to confirm.</p>
+        <a href="products.html" class="btn btn-outline btn-block">Browse More Products</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+<a class="whatsapp-fab" id="whatsapp-fab" href="#" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/modules/seed-data.js"></script>
+<script src="js/modules/utils.js"></script>
+<script src="js/modules/storage.js"></script>
+<script src="js/modules/store.js"></script>
+<script src="js/modules/ui.js"></script>
+<script src="js/modules/render.js"></script>
+<script src="js/booking.js"></script>
+<script>
+  UI.init("booking");
+  const biz = DataStore.getBusiness();
+  document.getElementById("whatsapp-fab").href = Utils.waLink(biz.whatsapp, "Hello! I'd like to book a product.");
+</script>
+</body>
+</html>

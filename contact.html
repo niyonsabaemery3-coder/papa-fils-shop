@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Papa Fils na Mama Fils Shop</title>
+<meta name="description" content="Contact Papa Fils na Mama Fils Shop at Byumba Market — call, WhatsApp, or send us a message.">
+<link rel="canonical" href="https://papafilsnamamafils.rw/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — Papa Fils na Mama Fils Shop">
+<meta property="og:description" content="Call, WhatsApp, or send us a message — we're at Byumba Market.">
+<meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+<div id="loading-screen"><div class="mark">PF</div></div>
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="breadcrumb-hero">
+    <div class="container">
+      <span class="eyebrow">Get in Touch</span>
+      <h1>We'd love to hear from you</h1>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container hero-grid" style="align-items:flex-start;">
+      <div>
+        <div class="info-list" style="margin-bottom:32px;">
+          <div class="info-item"><i class="fa-solid fa-location-dot"></i><div><strong>Visit Us</strong><span id="contact-address"></span></div></div>
+          <div class="info-item"><i class="fa-solid fa-phone"></i><div><strong>Call Us</strong><span id="contact-phone"></span></div></div>
+          <div class="info-item"><i class="fa-brands fa-whatsapp"></i><div><strong>WhatsApp</strong><span id="contact-whatsapp"></span></div></div>
+          <div class="info-item"><i class="fa-regular fa-envelope"></i><div><strong>Email</strong><span id="contact-email"></span></div></div>
+          <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Working Hours</strong><span id="contact-hours"></span></div></div>
+        </div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:32px;">
+          <a href="#" id="contact-call-btn" class="btn btn-dark"><i class="fa-solid fa-phone"></i> Call Now</a>
+          <a href="#" id="contact-wa-btn" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+        </div>
+        <div class="map-frame">
+          <iframe title="Map to Byumba Market" loading="lazy" src="https://www.google.com/maps?q=Byumba+Market+Rwanda&output=embed"></iframe>
+        </div>
+      </div>
+
+      <div>
+        <div class="form-card" id="contact-form-card">
+          <h3 style="margin-bottom:6px;">Send a Message</h3>
+          <p style="margin-bottom:22px;">We typically reply within a few hours during working hours.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label>Full Name <span class="req">*</span></label>
+                <input type="text" name="contactName" required>
+                <span class="error">Please enter your name.</span>
+              </div>
+              <div class="field">
+                <label>Phone Number <span class="req">*</span></label>
+                <input type="tel" name="contactPhone" placeholder="07XX XXX XXX" required>
+                <span class="error">Enter a valid Rwandan phone number.</span>
+              </div>
+              <div class="field full">
+                <label>Email (optional)</label>
+                <input type="email" name="contactEmail" placeholder="you@example.com">
+                <span class="error">Enter a valid email, or leave this blank.</span>
+              </div>
+              <div class="field full">
+                <label>Subject</label>
+                <input type="text" name="contactSubject" placeholder="What's this about?">
+              </div>
+              <div class="field full">
+                <label>Message <span class="req">*</span></label>
+                <textarea name="contactMessage" required placeholder="Write your message here…"></textarea>
+                <span class="error">Message should be at least 10 characters.</span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+        <div class="form-card" id="contact-success" style="display:none; text-align:center;">
+          <i class="fa-solid fa-circle-check" style="font-size:48px;color:var(--green);margin-bottom:16px;"></i>
+          <h3>Message Sent!</h3>
+          <p>Thank you for reaching out. We'll get back to you soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+<a class="whatsapp-fab" id="whatsapp-fab" href="#" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/modules/seed-data.js"></script>
+<script src="js/modules/utils.js"></script>
+<script src="js/modules/storage.js"></script>
+<script src="js/modules/store.js"></script>
+<script src="js/modules/ui.js"></script>
+<script src="js/modules/render.js"></script>
+<script src="js/contact.js"></script>
+<script>
+  UI.init("contact");
+  const biz = DataStore.getBusiness();
+  document.getElementById("contact-address").textContent = biz.address;
+  document.getElementById("contact-phone").textContent = biz.phone;
+  document.getElementById("contact-whatsapp").textContent = biz.phone;
+  document.getElementById("contact-email").textContent = biz.email;
+  document.getElementById("contact-hours").innerHTML = biz.hours.map(h => `${h.days}: ${h.time}`).join("<br>");
+  document.getElementById("contact-call-btn").href = `tel:${biz.phoneIntl}`;
+  document.getElementById("contact-wa-btn").href = Utils.waLink(biz.whatsapp, "Hello! I'd like to get in touch.");
+  document.getElementById("whatsapp-fab").href = Utils.waLink(biz.whatsapp, "Hello!");
+</script>
+</body>
+</html>

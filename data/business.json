@@ -1,0 +1,37 @@
+{
+  "name": "Papa Fils na Mama Fils Shop",
+  "shortName": "Papa Fils na Mama Fils",
+  "tagline": "Fashion, Bedding & Travel — All Under One Roof",
+  "founded": 2014,
+  "address": "C3F8+JW3, Byumba Market, Gicumbi District, Northern Province, Rwanda",
+  "mapQuery": "Byumba Market Rwanda",
+  "phone": "0784 993 515",
+  "phoneIntl": "+250784993515",
+  "whatsapp": "250784993515",
+  "email": "hello@papafilsnamamafils.rw",
+  "hours": [
+    { "days": "Monday – Friday", "time": "7:30 AM – 7:00 PM" },
+    { "days": "Saturday", "time": "7:30 AM – 8:00 PM" },
+    { "days": "Sunday", "time": "10:00 AM – 5:00 PM" }
+  ],
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "twitter": "#"
+  },
+  "story": "Papa Fils na Mama Fils Shop opened its doors at Byumba Market in 2014 as a small family stall selling secondhand and new clothing. Over a decade, it has grown into one of Byumba's most trusted stops for fashion, home textiles and travel essentials — stocked by a family that still greets every customer by name. Every bale, roll of fabric and suitcase is chosen by hand, and every sale supports the same family that started it.",
+  "mission": "To bring quality clothing, home textiles and travel goods within reach of every family in Byumba and beyond, with honest prices and warm service.",
+  "vision": "To become Northern Province's most trusted family-run shop for fashion and home essentials, known as far as Kigali and across the border.",
+  "values": [
+    { "title": "Honesty", "text": "Fair prices, clearly stated — no bargaining games, no hidden costs." },
+    { "title": "Quality", "text": "We check every item ourselves before it reaches the shelf." },
+    { "title": "Family", "text": "Two generations serving the community, one customer at a time." },
+    { "title": "Reliability", "text": "If we say it's in stock, it's in stock. If we say we'll call, we call." }
+  ],
+  "stats": [
+    { "label": "Years in Business", "value": 11, "suffix": "+" },
+    { "label": "Happy Customers", "value": 3200, "suffix": "+" },
+    { "label": "Products in Store", "value": 500, "suffix": "+" },
+    { "label": "Product Categories", "value": 4, "suffix": "" }
+  ]
+}

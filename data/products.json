@@ -1,0 +1,142 @@
+[
+  {
+    "id": "P001",
+    "name": "Fleece Crewneck Tracksuit",
+    "category": "fashion",
+    "price": 25000,
+    "description": "A soft brushed-fleece tracksuit with a relaxed fit, ribbed cuffs and an adjustable drawstring waist. Available in sand, sky blue and black.",
+    "image": "assets/images/tracksuits-mannequins.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P002",
+    "name": "Striped Polo Tracksuit Set",
+    "category": "fashion",
+    "price": 28000,
+    "description": "Two-tone polo-collar sweatshirt paired with matching joggers — a sporty set for casual days out.",
+    "image": "assets/images/tracksuits-mannequins.jpeg",
+    "availability": true,
+    "featured": false
+  },
+  {
+    "id": "P003",
+    "name": "Belted Shirt Dress",
+    "category": "fashion",
+    "price": 18000,
+    "description": "A button-through midi shirt dress with a self-tie belt and gold-tone hardware. Smart enough for the office, easy enough for weekends.",
+    "image": "assets/images/coats-dresses-rack.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P004",
+    "name": "Wool-Blend Herringbone Coat",
+    "category": "fashion",
+    "price": 32000,
+    "description": "A tailored herringbone coat with a soft faux-fur trim collar, built to keep you warm through Byumba's cooler evenings.",
+    "image": "assets/images/coats-dresses-rack.jpeg",
+    "availability": true,
+    "featured": false
+  },
+  {
+    "id": "P005",
+    "name": "Waterproof Mattress Protector",
+    "category": "bedding",
+    "price": 12000,
+    "description": "Fully waterproof mattress protector that guards against fluids, allergens and dust mites. Machine washable. Sizes 90x200 to 180x200cm.",
+    "image": "assets/images/mattress-protector.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P006",
+    "name": "Premium Cotton Bedsheet Set",
+    "category": "bedding",
+    "price": 15000,
+    "description": "A fitted sheet, flat sheet and two pillowcases in soft brushed cotton. Available in ten calm, fade-resistant colours.",
+    "image": "assets/images/bedsheets-shelf-1.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P007",
+    "name": "Soft Cotton Bath Towel",
+    "category": "bedding",
+    "price": 6000,
+    "description": "Thick, quick-drying cotton bath towel with a woven check border. Gentle on skin, built to last through hundreds of washes.",
+    "image": "assets/images/towels-shelf.jpeg",
+    "availability": true,
+    "featured": false
+  },
+  {
+    "id": "P008",
+    "name": "Reversible Comforter Set — Sky Blue",
+    "category": "bedding",
+    "price": 22000,
+    "description": "A quilted, reversible comforter with two matching pillowcases. Lightweight but warm, finished with a classic diamond stitch.",
+    "image": "assets/images/comforter-blue-bed.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P009",
+    "name": "Fluffy Duvet Blanket",
+    "category": "bedding",
+    "price": 18000,
+    "description": "A plush, filled duvet blanket in a dozen colourways — from blush pink to charcoal grey. Cool in the day, cosy at night.",
+    "image": "assets/images/duvets-stack.jpeg",
+    "availability": true,
+    "featured": false
+  },
+  {
+    "id": "P010",
+    "name": "Woven Floor Mat",
+    "category": "curtains",
+    "price": 9000,
+    "description": "Durable, easy-to-clean woven floor mats in traditional patterns — perfect for bedrooms, sitting rooms and prayer corners.",
+    "image": "assets/images/floor-mats.jpeg",
+    "availability": true,
+    "featured": false
+  },
+  {
+    "id": "P011",
+    "name": "Sheer & Blackout Curtain Set",
+    "category": "curtains",
+    "price": 20000,
+    "description": "A layered curtain set pairing a soft sheer voile with a striped blackout panel — sold by the window, made to measure.",
+    "image": "assets/images/curtains-1.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P012",
+    "name": "Textured Jacquard Curtain Panel",
+    "category": "curtains",
+    "price": 24000,
+    "description": "Heavyweight jacquard curtain panels with a subtle woodgrain texture, in charcoal, bronze and driftwood tones.",
+    "image": "assets/images/curtains-2.jpeg",
+    "availability": true,
+    "featured": false
+  },
+  {
+    "id": "P013",
+    "name": "Hardshell Spinner Suitcase",
+    "category": "luggage",
+    "price": 35000,
+    "description": "A lightweight hardshell spinner suitcase with four wheels and a combination lock. Available in sky blue, cream and silver.",
+    "image": "assets/images/luggage-pastel.jpeg",
+    "availability": true,
+    "featured": true
+  },
+  {
+    "id": "P014",
+    "name": "Classic Leather-Look Suitcase Set",
+    "category": "luggage",
+    "price": 45000,
+    "description": "A two-piece soft-shell suitcase set in a classic leather-look finish, with telescopic handles and reinforced corners.",
+    "image": "assets/images/luggage-classic.jpeg",
+    "availability": false,
+    "featured": false
+  }
+]

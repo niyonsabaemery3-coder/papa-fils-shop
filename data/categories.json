@@ -1,0 +1,6 @@
+[
+  { "id": "fashion", "name": "Fashion & Clothing", "icon": "fa-solid fa-shirt", "description": "Tracksuits, dresses, coats and everyday wear for men and women." },
+  { "id": "bedding", "name": "Bedding & Home Textiles", "icon": "fa-solid fa-bed", "description": "Bedsheets, comforters, duvets, towels and mattress protectors." },
+  { "id": "curtains", "name": "Curtains & Décor", "icon": "fa-solid fa-swatchbook", "description": "Sheer and blackout curtains, woven floor mats and home décor." },
+  { "id": "luggage", "name": "Travel & Luggage", "icon": "fa-solid fa-suitcase-rolling", "description": "Hardshell and classic suitcases built for the road." }
+]

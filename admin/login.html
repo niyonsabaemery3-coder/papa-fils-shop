@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login — Papa Fils na Mama Fils Shop</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/admin.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-login-wrap">
+  <div class="admin-login-card">
+    <div class="brand-mark" style="width:52px;height:52px;font-size:16px;">PF</div>
+    <h1>Admin Login</h1>
+    <p class="sub">Manage products, bookings, orders, reviews and more.</p>
+
+    <div class="toast error" id="login-error" style="display:none; margin-bottom:18px; width:100%; box-sizing:border-box;">
+      <i class="fa-solid fa-circle-exclamation"></i>
+      <span class="msg">Incorrect username or password. Please try again.</span>
+    </div>
+
+    <form id="admin-login-form" novalidate>
+      <div class="field">
+        <label>Username</label>
+        <input type="text" name="adminUsername" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="password" name="adminPassword" autocomplete="current-password" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-right-to-bracket"></i> Log In</button>
+    </form>
+
+    <div class="admin-hint">
+      <strong>Demo credentials:</strong> admin / byumba2026<br>
+      Change these any time from Settings once logged in.
+    </div>
+    <div style="text-align:center;margin-top:18px;">
+      <a href="../index.html" style="font-size:13.5px;color:var(--ink-soft);"><i class="fa-solid fa-arrow-left"></i> Back to website</a>
+    </div>
+  </div>
+</div>
+
+<script src="../js/modules/seed-data.js"></script>
+<script src="../js/modules/utils.js"></script>
+<script src="../js/modules/storage.js"></script>
+<script src="../js/modules/store.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
